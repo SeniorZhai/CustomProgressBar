@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+	<!-- android:indeterminate="false" 不明确滚动的数值 -->
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="63dp"
+        android:layout_height="63dp"
+        android:layout_gravity="center"
+        android:indeterminate="false"
+        android:indeterminateDrawable="@anim/progress_bar_anim"
+        android:scaleType="centerInside" />
+
+</FrameLayout>
